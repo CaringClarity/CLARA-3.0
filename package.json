@@ -1,0 +1,20 @@
+{
+  "name": "clara-intake",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@deepgram/sdk": "^3.0.0",
+    "@supabase/supabase-js": "^2.39.3",
+    "axios": "^1.6.0",
+    "openai": "^4.0.0",
+    "twilio": "^4.0.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/voice.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
