@@ -1,4 +1,5 @@
-import { twiml as TwiML } from 'twilio';
+import pkg from 'twilio';
+const { twiml: TwiML } = pkg;
 import { generateVoice } from '../lib/generateAudio.js';
 import { processIntakeLogic } from '../lib/intakeLogic.js';
 import { getSession, updateSession } from '../lib/sessionStore.js';
